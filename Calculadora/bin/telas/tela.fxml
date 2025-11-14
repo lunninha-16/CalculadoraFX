@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="controller.CalculadoraController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="358.0" prefWidth="301.0" style="-fx-background-color: #038B02;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="154.0" onAction="#onIgual" layoutY="288.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="=" />
+      <Button layoutX="222.0" onAction="#onOperador" layoutY="228.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="55.0" text="+" />
+      <Button layoutX="19.0" onAction="#onOperador" layoutY="288.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="x" />
+      <Button layoutX="85.0" onAction="#onNumero" layoutY="288.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="0" />
+      <Button layoutX="85.0" onAction="#onNumero" layoutY="175.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="5" />
+      <Button layoutX="19.0" onAction="#onNumero" layoutY="233.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="7" />
+      <Button layoutX="85.0" onAction="#onNumero" layoutY="233.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="8" />
+      <Button layoutX="19.0" onAction="#onNumero" layoutY="175.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="4" />
+      <Button layoutX="154.0" onAction="#onNumero" layoutY="233.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="9" />
+      <Button layoutX="154.0" onAction="#onNumero" layoutY="175.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="6" />
+      <Button layoutX="19.0" onAction="#onNumero" layoutY="118.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="1" />
+      <Button layoutX="85.0" onAction="#onNumero" layoutY="118.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="2" />
+      <Button layoutX="154.0" onAction="#onNumero" layoutY="118.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="3" />
+      <Button layoutX="222.0" onAction="#onOperador" layoutY="175.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="-" />
+      <Button layoutX="222.0" onAction="#onOperador" layoutY="118.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="55.0" text="/" />
+      <TextField fx:id="tela" layoutX="19.0" layoutY="24.0" prefHeight="75.0" prefWidth="258.0" />
+   </children>
+</AnchorPane>
